@@ -1,0 +1,36 @@
+.line{
+    top: 31%;
+    left: 94%;
+    position: absolute;
+    display: inline-block;
+    width: 30px;
+    color: #e75e8d;
+}
+.line .hr1{
+    transition: .3s all;
+    width: 70%;
+    border-bottom:2px solid #e75e8d;
+}
+.line .hr2{
+    margin-top: 8px;
+    border-bottom:2px solid ;
+}
+.line .hr3{
+    width: 70%;
+    margin-top: 8px;
+    border-bottom:2px solid ;
+}
+.line:hover .hr2{
+    display: none;
+}
+.line:hover .hr1{
+    top: 9px;
+    position: relative;
+    width: 100%;
+    transform:rotate(45deg);
+}
+.line:hover .hr3{
+    position: relative;
+    width: 100%;
+    transform:rotate(135deg);
+}

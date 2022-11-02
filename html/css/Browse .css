@@ -1,0 +1,189 @@
+
+.bar1{
+    background-color: #1f2122;
+    padding: 30px;
+    border-radius: 23px;
+    width: 61%;
+}
+.bar1-box{
+    padding-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.bar1-unbox{
+    width: 30%; 
+    font-size: 14px;
+    line-height: 22px;   
+}
+.bar1-unbox span:first-child{
+    font-weight: normal;
+    color: white;
+}
+.bar1-unbox-textb >div:nth-child(2){
+    color: #666;
+}
+.bar1-unbox-textb >div:first-child{
+    font-weight: 800;
+}
+.bar1-unbox img{
+    width: 100%;
+    border-radius: 23px;
+}
+.bar1-unbox-textb{
+    padding-top: 14px;
+    color: white;    
+}
+.bar1-unbox-textb span{
+    font-size: 14px;
+    float: right;
+}
+.bar1-unbox-card{
+    border-radius: 0px 10px 10px 0px;
+    bottom: 100px;
+    position: absolute;
+    background-color: #1f2122;
+    color: #e75e8d;
+    padding:6px 10px;
+    transition: all 1s;
+}
+.bar1-unbox:hover .bar1-unbox-card{
+    border-radius: 10px;
+    transform: translateX(20px);
+}
+/* bar2 */
+.bar2{
+    background-color: #1f2122;
+    margin-left: 25px;
+    width: 36%;
+    padding: 30px;
+    border-radius: 23px;
+}
+.bar2-unbox img{
+    width: 25%;
+}
+.bar2-unbox{
+    border-bottom: 1px solid #27292a;
+    padding: 25px 0px;
+    display: flex;
+}
+.bar2-unbox-tex p:first-child{      
+    font-weight: 800;
+}
+.bar2-unbox-tex p:nth-child(2){
+    color: #666;
+}
+.bar2-unbox-tex table{
+    width: 140%;
+}
+.bar2-unbox-tex{
+    font-size: 14px;
+    padding-left: 12px;
+    color: white;
+    line-height: 25px;
+}   
+.bar2 a{
+    margin: 30px 100px 0px;
+    display: inline-block;
+    text-decoration: none;
+}
+/* bar3 */
+.bar3{
+    margin-top: 100px;
+}
+.bar3-box{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.bar3-unbox{
+    padding: 23px;
+    border: #666 1px solid;
+    border-radius: 18px;
+    width: 30%;
+}
+.bar3-unbox img{
+    width: 22%;
+    border-radius: 100%;
+}
+.bar3-unbox h3{
+    line-height: 60px;
+    color: white;
+}
+.bar3-unbox p{
+    color: #666;
+    line-height: 30px;
+}
+.bar3-unbox a{
+    transition: none;
+    color: white;
+    text-decoration: none;
+}
+.bar3-unbox a:hover{
+    color: #e75e8d;
+}
+.bar3 > a{
+    position: absolute;
+    margin: 50px 440px;
+    padding: 12px 25px;
+}
+.bar4{
+    padding: 30px 30px 60px 30px;
+    background-color: #1f2122;
+    margin-top: 150px;
+    border-radius: 23px;
+}
+.bar4-box{
+    justify-content: space-between;
+    margin-top: 30px;
+    display: flex;
+}
+.bar4-unbox{
+    width: 22%;
+}
+.bar4-unbox img{
+    width: 100%;
+}
+.bar4-unbox-text{
+    margin-top: 10px;
+}
+.bar4-unbox-text img{
+    border-radius: 50%;
+    max-width: 46px;
+    float: left;
+}
+.bar4-unbox-text span{
+    margin-left:10px;
+}
+.bar4-unbox-text h3{
+    color: white;
+    margin:10px 0px 0px 55px;
+}
+.bar4-unbox-card{
+    position: absolute;
+    color: white;
+    background-color: #e75e8d;
+    padding: 6px 10px;
+    text-decoration: none;
+    border-radius: 15px;
+    font-size: 15px;
+    visibility: hidden;
+    transition: none;
+}
+.bar4-unbox:hover .bar4-unbox-card{
+    visibility: visible;
+}
+.bar4-unbox-cardp1{
+    margin: 13px 0px 0px 150px;
+}
+.bar4-unbox-cardp2{
+    margin: 165px 0px 0px 20px;
+}
+.bar4-unbox-cardp3{
+    margin: 165px 0px 0px 110px;
+}
+.bar4>a{
+    position: absolute;
+    padding: 12px 30px;
+    margin: 34px 0px 0px 380px;
+}

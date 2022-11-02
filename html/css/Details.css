@@ -1,0 +1,121 @@
+.bar1-1{
+    width: 30%;
+    margin-bottom:60px;
+}
+.bar1-2{
+    background-image: url("images/feature-right.jpg");
+    width: 66%;
+    margin-left: 24px;
+    border-radius: 23px;
+}
+.bar1 a{
+    position: absolute;
+    transform: translate(340px,130px);
+    text-decoration: none;
+    color: #e75e8d;
+    background-color: white;
+    border-radius: 50%;
+    padding: 16px 18px;
+    font-size: 16px;
+}
+.body .fortnite{
+    color: white;
+    text-align: center;
+    margin-top: 60px;
+    font-size: 45px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+/*  */
+.bar2{
+    margin-top: 60px;
+    background-color:#1f2122;
+    border-radius: 23px;
+    padding: 30px;
+}
+.bar2-box1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.bar2-unbox1{
+    color: white;
+    line-height: 24px;
+    justify-content: space-between;
+    display: flex;
+    padding: 20px;
+    background-color: #27292a;
+    width: 45%;
+    border-radius: 23px;
+    font-size: 14px;
+}
+.bar2-unbox1 table{
+    width: 100%;
+}
+.bar2-unbox1 td{
+    width: 24%;
+    text-align: center;
+}
+.bar2-box2{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.bar2-unbox2{
+    width: 32%;
+}
+.bar2-unbox2 img{
+    width: 100%;
+}
+.bar2 p{
+    color: #666;
+    margin-top: 30px;
+    line-height:30px;
+}
+.bar2 a{
+    margin-top: 30px;
+    padding: 14px;    
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 23px;
+    border:1px solid #e75e8d;
+    color: #e75e8d;   
+    transition: .3s all;
+}
+.bar2 a:hover{
+    border-color: transparent;
+    background-color: white;
+}
+.bar3{
+    padding: 30px;
+    margin-top: 50px;
+    background-color: #1f2122;
+    border-radius: 23px;    
+    width: 100%;
+}
+.bar3-box{
+    margin-top: 25px;
+    column-gap: 30px ;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.bar3-unbox{
+    padding: 20px 0px;
+    border-bottom:1px solid #27292a ;
+    color: white;
+    display: flex;
+}
+.bar3-unbox ul:last-child{
+    margin-left: 50%;
+}
+.bar3-unbox li{
+    font-size: 13px;
+    margin:12px 0px 0px 20px;
+    line-height:17px;
+}
+.bar3-unbox img{
+    max-height: 80px;
+}
